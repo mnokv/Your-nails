@@ -1,0 +1,45 @@
+.nav{width:1200px;height:50px;margin:auto;padding:0px;}
+
+ul{list-style-type:none;
+    margin:0px;
+    padding:0px;
+    overflow: hidden;
+    font-size:20px;
+    font-style: italic;
+}
+
+li{
+    float:left;
+    margin-left:100px;
+    font-style: italic;
+}
+
+li a{
+    display: block;
+    color:rgba(37,110,37,0.881);
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-style: italic;
+}
+
+li a:hover:not(.active){
+    background-color:white;
+}
+
+.active{
+    background-color: hsl(71,22%,65%);
+    color:aliceblue;
+}
+.middel{
+    width: 1200x;height: 300px;background-color: white;border: dashed 2px;border-color:rgb(53, 101, 53) ;margin:auto;padding:0px;margin-top: 100px;
+   
+}
+
+h2{
+    font-size: 40px;color:rgb(53, 101, 53);text-align: center;font-style: italic;
+}
+
+.ff{
+    font-size: 35px;color:rgb(87, 83, 83);text-align: center;font-style: italic;margin-top: 50px;margin-left: 420px;
+}

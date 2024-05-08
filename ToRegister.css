@@ -1,0 +1,66 @@
+.nav{width:1200px;height:50px;margin:auto;padding:0px;}
+
+ul{list-style-type:none;
+    margin:0px;
+    padding:0px;
+    overflow: hidden;
+    font-size:20px;
+    font-style: italic;
+}
+
+li{
+    float:left;
+    margin-left:100px;
+    font-style: italic;
+}
+
+li a{
+    display: block;
+    color:rgba(37,110,37,0.881);
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-style: italic;
+}
+
+li a:hover:not(.active){
+    background-color:white;
+}
+
+.active{
+    background-color: hsl(71,22%,65%);
+    color:aliceblue;
+}
+
+.middel{
+    width:850px;height:490px;background-image: url(hhomy.jpg);border: solid 3px;border-color: rgb(65, 97, 65);margin: auto;padding:0px;
+    margin-top:30px;
+}
+
+.javaform{
+    margin-top:30px;text-align: center;font-style: italic;color:rgb(65, 97, 65) ;
+}
+h2{
+    text-align: center;font-size: 30px;font-style: italic;color:rgb(65, 97, 65) ;
+}
+
+input{
+    width: 680px;background-color:white;height: 35px;border: solid 2px;border-color:rgb(65, 97, 65) ;font-style: italic;border-radius: 2px;font-weight: bold;font-size: 15px;
+}
+
+.javaforma{
+    width: 680px;background-color:white;height: 40px;border: solid 2px;border-color:rgb(65, 97, 65) ;font-style: italic;border-radius: 2px;font-weight: bold;font-size: 15px;
+}
+
+.javaformb{
+    width: 680px;background-color:white;height:100px;border: solid 2px;border-color:rgb(65, 97, 65) ;font-style: italic;border-radius: 2px;font-weight: bold;font-size: 15px;padding-top: -15;
+    
+}
+
+textarea{
+    border: solid 2px;border-color:rgb(65, 97, 65) ;font-style: italic;
+}
+
+.subj{
+    width:100px;background-color:rgb(65, 97, 65) ;height:30px;color:antiquewhite;margin-top: 20px;border: solid 2px;border-color:rgb(65, 97, 65) ;font-style: italic;border-radius: 2px;
+}

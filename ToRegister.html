@@ -1,0 +1,42 @@
+<html>
+<head>
+    <link rel="stylesheet" href="ToRegister.css">
+    <script>
+        function validateForm() {
+          let x = document.forms["myForm"]["fname"].value;
+          if (x == "") {
+            alert("Enter any word");
+            return false;
+          }
+        }
+        </script>
+</head>
+<body style="background-image: url(hhomy.jpg);background-size: cover;">
+<div class="nav">
+    <ul>
+        <li><a class="active" href="homepage.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="CustomerOpinions.html">Opinions</a></li>
+        <li><a href="member.html">Member</a></li>
+        <li><a href="ToRegister.html">Contact</a></li>
+      </ul>
+      
+</div>
+<div class="middel">
+    <h2><u>Contact Us:</u></h2>
+    
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" class="javaform">
+        <label>Name:</label><br><input type="text" name="fname">
+        <br><br>
+        <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" class="javaforma">
+           <label>Email:</label><br><input type="text" name="fname" class="javaforma">
+            <br><br>
+            
+            <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" class="javaformb">
+                <label>Address:</label><br>
+              <textarea rows="10" cols="70"></textarea>
+                <br>
+        <input type="submit" value="Submit" class="subj">
+      </form>
+</div>

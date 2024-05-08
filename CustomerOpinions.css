@@ -1,0 +1,59 @@
+.nav{width:1200px;height:50px;margin:auto;padding:0px;}
+
+ul{list-style-type:none;
+    margin:0px;
+    padding:0px;
+    overflow: hidden;
+    font-size:20px;
+    font-style: italic;
+}
+
+li{
+    float:left;
+    margin-left:100px;
+    font-style: italic;
+}
+
+li a{
+    display: block;
+    color:rgba(37,110,37,0.881);
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-style: italic;
+}
+
+li a:hover:not(.active){
+    background-color:white;
+}
+
+.active{
+    background-color: hsl(71,22%,65%);
+    color:aliceblue;
+}
+.bf{
+    font-size:40px;text-align: center;color: rgb(49, 101, 49);font-style: italic;padding: 15px;
+}
+.middel{
+    width:1150px;height:400px;margin:auto;padding:0px;margin-top:15px;background-image: url(hhomy.jpg);
+}
+
+.middela{
+    width:350px;height:350px;margin:auto;padding:0px;background-image: url(hhomy.jpg); ;margin-left:30px;margin-top: -10px;padding-top: 50px;border: solid 3px;border-color:rgb(49, 101, 49);font-style: italic;
+}
+
+.middelb{
+    width:350px;height:350px;margin:auto;padding:0px;background-color: white;margin-top: -406px;margin-left: 400px;padding-top: 50px;border: solid 3px;border-color:rgb(49, 101, 49);font-style: italic;
+}
+
+
+.middeld{
+    width:350px;height:350px;margin:auto;padding:0px;background-image: url(hhomy.jpg); ;margin-top: -406px;margin-left: 770px;padding-top: 50px;border: solid 3px;border-color:rgb(49, 101, 49);font-style: italic;
+}
+
+p{
+    margin-left: 5px;color:rgb(87, 83, 83);
+}
+h2{
+    color:rgb(49, 101, 49) ;
+}

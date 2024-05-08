@@ -1,0 +1,62 @@
+.nav{width:1200px;height:50px;margin:auto;padding:0px;}
+
+ul{list-style-type:none;
+    margin:0px;
+    padding:0px;
+    overflow: hidden;
+    font-size:20px;
+    font-style: italic;
+}
+
+li{
+    float:left;
+    margin-left:100px;
+    font-style: italic;
+}
+
+li a{
+    display: block;
+    color:rgba(37,110,37,0.881);
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-style: italic;
+}
+
+li a:hover:not(.active){
+    background-color:white;
+}
+
+.active{
+    background-color: hsl(71,22%,65%);
+    color:aliceblue;
+}
+
+.middel{
+    width:1000px;height:2000px;margin:auto;padding:0px;margin-top:15px;
+}
+.middela{ 
+    width:1000px;height:500px;margin:auto;padding:0px;margin-top:15px;background-color: white;border: solid;border-color: #21611b;
+}
+.middelb{
+    width:500px;height:500px;margin:auto;padding:0px;margin-top:0px;background-color:white;float: left;background-image: url(hhomy.jpg);
+}
+.middeld{
+    width:500px;height:500px;margin:auto;padding:0px;margin-top:0px;background-color:white;float: left;background-color: white ;
+}
+h2{
+    margin-left: 110px;font-style: italic;margin-top: 80px;font-size: 40px;color:#21611b;
+}
+.af{
+    margin-left: 90px;font-size: 30px;font-style: italic;margin-top: 40px;color: #21611b;line-height: 1.6;text-align: justify;margin-right: 25px;
+}
+p{
+    margin-left: 110px;font-style: italic;margin-top: 25px;font-size: 30px;color: gray;
+}
+
+img{
+    width: 350px;height: 350px;margin:100px ;padding:0px;margin-top: 50px;border: dashed;border-color:#21611b;
+}
+.nails:hover{border-style: solid;border-color: #21611b;border-width: 2px;
+
+}
